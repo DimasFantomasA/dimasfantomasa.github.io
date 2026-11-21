@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100f0f">
+  <meta name="description" content="Дмитрий Троян. Студент программной инженерии в Политехе Петра Великого. Ищу стажировку или начальную позицию в разработке и тестировании.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Дмитрий Троян — сайт-резюме">
+  <meta property="og:description" content="Проекты, технические навыки и образование Дмитрия Трояна.">
+  <title>Дмитрий Троян — разработка и тестирование</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./content.js"></script>
+  <script defer src="./site.js"></script>
+  <script defer src="./effects.js"></script>
+  <script defer src="./portrait-scroll.js"></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">К содержанию</a>
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top" aria-label="Дмитрий Троян, к началу страницы"><span aria-hidden="true">ДТ<span class="accent">.</span></span></a>
+      <nav class="nav" aria-label="Разделы">
+        <a href="#projects">Проекты</a>
+        <a href="#skills">Навыки</a>
+        <a href="#education">Образование</a>
+        <a href="#experience">Опыт</a>
+      </nav>
+      <a class="button button-small button-outline" href="#contact">Связаться</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-copy">
+          <p class="availability"><span aria-hidden="true"></span> Открыт к предложениям</p>
+          <h1 id="hero-heading">Дмитрий<br>Троян<span class="accent">.</span></h1>
+          <p class="hero-role">Разработка и тестирование</p>
+          <p class="hero-description">Учусь на программной инженерии в Политехе Петра Великого. Ищу стажировку или первую работу в IT.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Смотреть проекты</a>
+            <a class="button button-outline" href="#contact">Написать мне</a>
+          </div>
+        </div>
+        <figure class="hero-portrait">
+         <img src="./assets/portrait.png" alt="Портрет Дмитрия Трояна">
+        </figure>
+      </section>
+
+      <dl class="facts" aria-label="Краткая информация">
+        <div><dt>Город</dt><dd>Санкт-Петербург</dd></div>
+        <div><dt>Образование</dt><dd>Политех Петра Великого</dd></div>
+        <div><dt>Ожидаемый выпуск</dt><dd>2028</dd></div>
+      </dl>
+
+      <section class="section" id="projects" aria-labelledby="projects-heading">
+        <div class="section-heading">
+          <h2 id="projects-heading">Проекты<span class="accent">.</span></h2>
+        </div>
+        <div class="projects" id="project-list">
+          <article class="project-card" data-visual="library">
+            <div class="project-art" aria-hidden="true"><span></span></div>
+            <div class="project-meta"><span class="tag">Базы данных</span><span class="project-status">Учебный проект</span></div>
+            <h3>Приложение для библиотеки</h3>
+            <p>Подключил базу данных к учебному приложению и на практике разобрался, как приложение работает с хранимыми данными.</p>
+          </article>
+          <article class="project-card" data-visual="orders">
+            <div class="project-art" aria-hidden="true"><span></span></div>
+            <div class="project-meta">
+                <span class="tag">Java · Maven</span>
+                <span class="project-status">В разработке</span>
+            </div>
+            <h3>Обработчик заказов</h3>
+            <p>Курсовой симулятор очереди заказов интернет-магазина. В пошаговом режиме показывает загрузку серверов, состояние кольцевого буфера и статистику отказов при переполнении.</p>
+            <a class="project-link" href="https://github.com/DimasFantomasA/online-store-queue-simulator"
+        target="_blank" rel="noopener noreferrer">Репозиторий на GitHub</a>
+        </article>
+
+        <article class="project-card">
+            <div class="project-art" aria-hidden="true"><span></span></div>
+            <div class="project-meta">
+                <span class="tag">Node.js · PostgreSQL</span>
+                <span class="project-status">В разработке</span>
+            </div>
+            <h3>Проверка безопасности личных данных</h3>
+            <p>В команде разрабатываем веб-приложение для проверки своего email по базе известных утечек XposedOrNot. В проекте предусмотрены история найденных инцидентов и сводка по домену.</p>
+            <a class="project-link" href="https://github.com/DimasFantomasA/personal-data-safety"
+                target="_blank" rel="noopener noreferrer">Репозиторий на GitHub</a>
+        </article>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills" aria-labelledby="skills-heading">
+        <div class="section-heading">
+          <h2 id="skills-heading">Навыки<span class="accent">.</span></h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-group">
+            <h3>Программирование</h3>
+            <ul class="chips" aria-label="Языки программирования">
+              <li>C++</li><li>Java</li><li>Python</li><li>Go</li><li>Assembler</li><li>Fortran</li>
+            </ul>
+            <p>Базовый уровень C++ и Java. Python изучал на курсах, Go — на факультативе. Работал с математическими библиотеками на Fortran.</p>
+          </article>
+          <article class="skill-group">
+            <h3>Данные и инструменты</h3>
+            <ul class="chips" aria-label="Базы данных и инструменты">
+              <li>SQL</li><li>Linux</li><li>LaTeX</li>
+            </ul>
+            <p>Базовый SQL и практика работы с базой данных в учебном проекте.</p>
+          </article>
+          <article class="skill-group">
+            <h3>Цифровая схемотехника</h3>
+            <ul class="chips" aria-label="Технологии цифровой схемотехники">
+              <li>Verilog</li><li>VHDL</li><li>SystemVerilog</li><li>Quartus</li><li>MAX+PLUS II</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <div class="background-grid">
+        <section class="section" id="education" aria-labelledby="education-heading">
+          <div class="section-heading">
+            <h2 id="education-heading">Образование<span class="accent">.</span></h2>
+          </div>
+          <article class="education-card">
+            <p class="education-time">3 курс · ожидаемый выпуск в 2028</p>
+            <h3>Программная инженерия</h3>
+            <p>Санкт-Петербургский политехнический университет Петра Великого</p>
+            <p class="education-institute">Институт компьютерных наук и кибербезопасности</p>
+            <dl class="languages">
+              <div><dt>Русский</dt><dd>Родной</dd></div>
+              <div><dt>Английский</dt><dd>B1</dd></div>
+              <div><dt>Французский</dt><dd>B2</dd></div>
+            </dl>
+          </article>
+        </section>
+
+        <section class="section" id="experience" aria-labelledby="experience-heading">
+          <div class="section-heading">
+            <h2 id="experience-heading">Опыт работы<span class="accent">.</span></h2>
+          </div>
+          <div class="experience-list" id="experience-list">
+            <div class="experience-empty">
+              <p>Подробности о работе добавлю позже.</p>
+              <a class="text-link" href="#projects">Посмотреть мои проекты</a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="contact" id="contact" aria-labelledby="contact-heading">
+        <div>
+          <h2 id="contact-heading">Давайте обсудим<br>стажировку<span class="accent">.</span></h2>
+          <p>Готов обсудить задачи по разработке и тестированию.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:troyandmitry777@gmail.com">
+            <span class="mail-icon" aria-hidden="true"></span> Написать на почту
+          </a>
+          <a class="email-address" href="mailto:troyandmitry777@gmail.com">troyandmitry777@gmail.com</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>Дмитрий Троян</p>
+      <a href="#top">К началу</a>
+    </div>
+  </footer>
+</body>
+</html>
